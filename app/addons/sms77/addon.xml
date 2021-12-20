@@ -1,0 +1,186 @@
+<?xml version='1.0'?>
+<addon scheme='3.0' edition_type='ROOT,ULT:VENDOR'>
+    <id>sms77</id>
+    <name>sms77</name>
+    <auto_install>ULTIMATE</auto_install>
+    <description>Send SMS via sms77</description>
+    <version>1.0.0</version>
+    <compatibility>
+        <core_edition>ULTIMATE</core_edition>
+        <core_version>
+            <min>4.11.1</min>
+        </core_version>
+        <php_extensions>
+            <curl>
+                <supported>Y</supported>
+            </curl>
+            <json>
+                <supported>Y</supported>
+            </json>
+        </php_extensions>
+        <php_version>
+            <min>5.6.0</min>
+        </php_version>
+    </compatibility>
+    <priority>100</priority>
+    <status>active</status>
+    <supplier>sms77 e.K.</supplier>
+    <settings layout='separate'>
+        <sections>
+            <section id='general'>
+                <items>
+                    <item id='general'>
+                        <name>General</name>
+                        <type>header</type>
+                    </item>
+                    <item id='length_limitation'>
+                        <type>info</type>
+                        <handler>fn_sms77_add_from_maxlength</handler>
+                    </item>
+                    <item id='api-key'>
+                        <name>Enter your sms77 API key</name>
+                        <type>password</type>
+                    </item>
+                    <item id='message-from'>
+                        <name>The sender identifier</name>
+                        <type>input</type>
+                    </item>
+                    <item id='header-balance'>
+                        <name>Account Balance</name>
+                        <type>header</type>
+                    </item>
+                    <item id='balance'>
+                        <type>info</type>
+                        <handler>fn_sms77_get_balance</handler>
+                    </item>
+                </items>
+            </section>
+            <section id='messages'>
+                <items>
+                    <item id='header-text'>
+                        <name>Messages</name>
+                        <type>header</type>
+                    </item>
+                    <item id='message-information'>
+                        <type>info</type>
+                        <handler>fn_sms77_alter_message_templates</handler>
+                    </item>
+                    <item id='paid-activated'>
+                        <name>Send SMS after order status changed to 'Paid (P)'?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='paid-performance-tracking'>
+                        <name>Use performance tracking?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='paid-text'>
+                        <name>The message after order status changed to 'Paid (P)'</name>
+                        <type>textarea</type>
+                    </item>
+                    <item id='complete-activated'>
+                        <name>Send SMS after order status changed to 'Complete (C)'?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='complete-performance-tracking'>
+                        <name>Use performance tracking?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='complete-text'>
+                        <name>The message after order status changed to 'Complete (C)'</name>
+                        <type>textarea</type>
+                    </item>
+                    <item id='open-activated'>
+                        <name>Send SMS after order status changed to 'Open (O)'?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='open-performance-tracking'>
+                        <name>Use performance tracking?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='open-text'>
+                        <name>The message after order status changed to 'Open (O)'</name>
+                        <type>textarea</type>
+                    </item>
+                    <item id='failed-activated'>
+                        <name>Send SMS after order status changed to 'Failed (F)'?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='failed-performance-tracking'>
+                        <name>Use performance tracking?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='failed-text'>
+                        <name>The message after order status changed to 'Failed (F)'</name>
+                        <type>textarea</type>
+                    </item>
+                    <item id='declined-activated'>
+                        <name>Send SMS after order status changed to 'Declined (D)'?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='declined-performance-tracking'>
+                        <name>Use performance tracking?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='declined-text'>
+                        <name>The message after order status changed to 'Declined (D)'</name>
+                        <type>textarea</type>
+                    </item>
+                    <item id='backordered-activated'>
+                        <name>Send SMS after order status changed to 'Backordered (B)'?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='backordered-performance-tracking'>
+                        <name>Use performance tracking?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='backordered-text'>
+                        <name>The message after order status changed to 'Backordered (B)'</name>
+                        <type>textarea</type>
+                    </item>
+                    <item id='canceled-activated'>
+                        <name>Send SMS after order status changed to 'Canceled (I)'?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='canceled-performance-tracking'>
+                        <name>Use performance tracking?</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id='canceled-text'>
+                        <name>The message after order status changed to 'Canceled (I)'</name>
+                        <type>textarea</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for='install'>DROP TABLE IF EXISTS ?:sms77_messages;</item>
+        <item for='install'>
+            CREATE TABLE `?:sms77_messages`
+            (
+            `id` INT(12) UNSIGNED NOT NULL AUTO_INCREMENT,
+            `status` TEXT NOT NULL DEFAULT '',
+            `type` TEXT NOT NULL DEFAULT '',
+            `to` TEXT,
+            `date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            `info` LONGTEXT,
+            PRIMARY KEY (`id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for='uninstall'>DROP TABLE IF EXISTS ?:sms77_messages;</item>
+    </queries>
+</addon>
