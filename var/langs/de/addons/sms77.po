@@ -1,0 +1,249 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: German\n"
+"Language: de_DE"
+
+msgctxt "Languages::sms77.info"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "Languages::sms77.send_sms"
+msgid "SMS-Versand"
+msgstr "SMS-Versand"
+
+msgctxt "Languages::sms77.missing_api_key"
+msgid "Fehlender API-Schlüssel"
+msgstr "Fehlender API-Schlüssel"
+
+msgctxt "Languages::sms77.missing_text"
+msgid "Der SMS-Inhalt kann nicht leer sein."
+msgstr "Der SMS-Inhalt kann nicht leer sein."
+
+msgctxt "Languages::sms77.missing_recipient"
+msgid "SMS hat keine Empfangsziele."
+msgstr "SMS hat keine Empfangsziele."
+
+msgctxt "Languages::sms77.fail"
+msgid "Fehler"
+msgstr "Fehler"
+
+msgctxt "Languages::sms77.bulk_sms"
+msgid "Massen-SMS"
+msgstr "Massen-SMS"
+
+msgctxt "Languages::sms77.sms_history"
+msgid "SMS-Verlauf"
+msgstr "SMS-Verlauf"
+
+msgctxt "Languages::sms77.filter_by_phone"
+msgid "Filtern nach Rufnummer"
+msgstr "Filtern nach Rufnummer"
+
+msgctxt "Languages::sms77.filter_by_date"
+msgid "Filtern nach Datum"
+msgstr "Filtern nach Datum"
+
+msgctxt "Languages::sms77.filter_messages"
+msgid "Filtern nach Nachrichten"
+msgstr "Filtern nach Nachrichten"
+
+msgctxt "Languages::sms77.bulk_filter_countries_all"
+msgid "Alle Länder"
+msgstr "Alle Länder"
+
+msgctxt "Languages::sms77.bulk_narrow_down"
+msgid "Kundschaft eingrenzen mit den unten stehenden Kriterien."
+msgstr "Kundschaft eingrenzen mit den unten stehenden Kriterien."
+
+msgctxt "Languages::sms77.bulk_filter_order_date_any"
+msgid "Unabhängig vom letzten Bestelldatum"
+msgstr "Unabhängig vom letzten Bestelldatum"
+
+msgctxt "Languages::sms77.bulk_filter_order_between"
+msgid "Letzte Bestellung zwischen"
+msgstr "Letzte Bestellung zwischen"
+
+msgctxt "Languages::sms77.bulk_filter_order_from"
+msgid "Von"
+msgstr "Von"
+
+msgctxt "Languages::sms77.bulk_filter_order_to"
+msgid "An (inklusive)"
+msgstr "An (inklusive)"
+
+msgctxt "Languages::sms77.bulk_filter_order_min_price"
+msgid "Mindestbestellwert"
+msgstr "Mindestbestellwert"
+
+msgctxt "Languages::sms77.bulk_filter_order_countries"
+msgid "Kundenländer"
+msgstr "Kundenländer"
+
+msgctxt "Languages::sms77.test_sms"
+msgid "Test-SMS"
+msgstr "Test-SMS"
+
+msgctxt "Languages::sms77.user_missing_phone"
+msgid "Kundschaft hat keine Rufnummer."
+msgstr "Kundschaft hat keine Rufnummer."
+
+msgctxt "Languages::sms77.order_status"
+msgid "Bestellstatus"
+msgstr "Bestellstatus"
+
+msgctxt "Languages::sms77.sms_sent"
+msgid "SMS versandt"
+msgstr "SMS versandt"
+
+msgctxt "Languages::sms77.bulk_fail"
+msgid "Fehler beim Massen-Versand - siehe Verlauf für weitere Informationen."
+msgstr "Fehler beim Massen-Versand - siehe Verlauf für weitere Informationen."
+
+msgctxt "Languages::sms77.bulk_success"
+msgid "Fehler"
+msgstr "Fehler"
+
+msgctxt "Languages::sms77.start_date_after_end_date"
+msgid "Startdatum kann nicht später sein als Enddatum"
+msgstr "Startdatum kann nicht später sein als Enddatum"
+
+msgctxt "Languages::sms77.start_date_or_end_date_invalid"
+msgid "Fehlerhaftes Start- oder Enddatum"
+msgstr "Fehlerhaftes Start- oder Enddatum"
+
+msgctxt "Languages::sms77.calculate_sms_price"
+msgid "[phoneCount] Rufnummern gefunden, resultiert in etwa [count] Nachrichten zum Wert von etwa [total] €."
+msgstr "[phoneCount] Rufnummern gefunden, resultiert in etwa [count] Nachrichten zum Wert von etwa [total] €."
+
+msgctxt "Languages::sms77.calculate_sms_price_submit"
+msgid "Erwarteten Preis kalkulieren"
+msgstr "Erwarteten Preis kalkulieren"
+
+msgctxt "Languages::sms77.order_update"
+msgid "Bestellaktualisierung"
+msgstr "Bestellaktualisierung"
+
+msgctxt "Languages::sms77.error_text"
+msgid "Fehlerbeschreibung"
+msgstr "Fehlerbeschreibung"
+
+msgctxt "Languages::sms77.success"
+msgid "Erfolg"
+msgstr "Erfolg"
+
+msgctxt "Languages::sms77.phone_number"
+msgid "Rufnummer"
+msgstr "Rufnummer"
+
+msgctxt "Languages::sms77.message"
+msgid "Nachricht"
+msgstr "Nachricht"
+
+msgctxt "Languages::sms77.use_performance_tracking"
+msgid "Nutze URL-Kürzer für http(s):// Links und aktiviere <a href='https://help.sms77.io/de/performance-tracking' target='_blank'>Performance Tracking</a>"
+msgstr "Nutze URL-Kürzer für http(s):// Links und aktiviere <a href='https://help.sms77.io/de/performance-tracking' target='_blank'>Performance Tracking</a>"
+
+msgctxt "Languages::sms77.parts"
+msgid "Teile"
+msgstr "Teile"
+
+msgctxt "Languages::sms77.encoding"
+msgid "Kodierung"
+msgstr "Kodierung"
+
+msgctxt "Languages::sms77.debug"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "Languages::sms77.label"
+msgid "Label"
+msgstr "Label"
+
+msgctxt "Addons::name::sms77"
+msgid "sms77"
+msgstr "sms77"
+
+msgctxt "Addons::description::sms77"
+msgid "SMS-Versand programmatisch via sms77."
+msgstr "SMS-Versand programmatisch via sms77."
+
+msgctxt "SettingsSections::sms77::general"
+msgid "Generell"
+msgstr "Generell"
+
+msgctxt "SettingsSections::sms77::messages"
+msgid "Nachrichtenvorlagen"
+msgstr "Nachrichtenvorlagen"
+
+msgctxt "Languages::sms77.title"
+msgid "sms77"
+msgstr "sms77"
+
+msgctxt "Languages::sms77.true"
+msgid "Wahr"
+msgstr "Wahr"
+
+msgctxt "SettingsTooltips::sms77::api-key"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsTooltips::sms77::message-from"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsTooltips::sms77::paid-performance-tracking"
+msgid "Unterstützt nur http(s):// links"
+msgstr "Unterstützt nur http(s):// links"
+
+msgctxt "SettingsTooltips::sms77::complete-performance-tracking"
+msgid "Unterstützt nur http(s):// links"
+msgstr "Unterstützt nur http(s):// links"
+
+msgctxt "SettingsTooltips::sms77::failed-performance-tracking"
+msgid "Unterstützt nur http(s):// links"
+msgstr "Unterstützt nur http(s):// links"
+
+msgctxt "SettingsTooltips::sms77::declined-performance-tracking"
+msgid "Unterstützt nur http(s):// links"
+msgstr "Unterstützt nur http(s):// links"
+
+msgctxt "SettingsTooltips::sms77::backordered-performance-tracking"
+msgid "Unterstützt nur http(s):// links"
+msgstr "Unterstützt nur http(s):// links"
+
+msgctxt "SettingsTooltips::sms77::canceled-performance-tracking"
+msgid "Unterstützt nur http(s):// links"
+msgstr "Unterstützt nur http(s):// links"
+
+msgctxt "SettingsTooltips::sms77::open-performance-tracking"
+msgid "Unterstützt nur http(s):// links"
+msgstr "Unterstützt nur http(s):// links"
+
+msgctxt "SettingsTooltips::sms77::paid-activated"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsTooltips::sms77::complete-activated"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsTooltips::sms77::failed-activated"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsTooltips::sms77::declined-activated"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsTooltips::sms77::backordered-activated"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsTooltips::sms77::canceled-activated"
+msgid ""
+msgstr ""
+
+msgctxt "SettingsTooltips::sms77::open-activated"
+msgid ""
+msgstr ""
