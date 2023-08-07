@@ -1,16 +1,16 @@
-![](https://www.sms77.io/wp-content/uploads/2019/07/sms77-Logo-400x79.png "sms77 Logo")
+![](https://www.seven.io/wp-content/uploads/Logo.svg "seven Logo")
 
-# sms77 for CS-Cart
+# seven for CS-Cart
 
 ## Prerequisites
 
 - A working CS-Cart installation 4.11.1+ (tested with CS-Cart 4.14.x)
-- An API key from [sms77](https://www.sms77.io)
+- An [API key](https://help.seven.io/en/api-key-access) from [seven](https://www.seven.io)
 
 ## Installation
 
 1. Download
-   the [latest release](https://github.com/sms77io/cscart/releases/latest/download/sms77-cscart-latest.zip)
+   the [latest release](https://github.com/seven-io/cscart/releases/latest/download/seven-cscart-latest.zip)
    as *.ZIP archive
 2. Open your CS-Cart administration, then go to `Add-ons -> Manage add-ons` and click on
    the `+` icon
@@ -20,7 +20,7 @@
 ## Setup
 
 1. Go to `Administration -> Send SMS -> Settings`
-2. Set your API key from your [sms77 developer dashboard](https://app.sms77.io/developer)
+2. Set your API key from your [seven developer dashboard](https://app.seven.io/developer)
 3. Submit by clicking `Save`
 
 ## How to send SMS?
@@ -46,7 +46,7 @@ This addon offers multiple ways to send SMS to your customers.
 
 1. Go to `Administration -> Orders -> View orders`
 2. Load an order by clicking `Order #`
-3. Click the `Add-ons` tab, fill out the sms77 SMS form and click `Send SMS`
+3. Click the `Add-ons` tab, fill out the seven SMS form and click `Send SMS`
 
 ## Message History
 
@@ -55,6 +55,6 @@ to `Administration -> Send SMS -> SMS Logs`.
 
 ## Support
 
-Need help? Feel free to [contact us](https://www.sms77.io/en/company/contact/).
+Need help? Feel free to [contact us](https://www.seven.io/en/company/contact/).
 
 [![MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
