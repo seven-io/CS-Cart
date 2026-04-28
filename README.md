@@ -1,60 +1,75 @@
-<img src="https://www.seven.io/wp-content/uploads/Logo.svg" width="250" />
+<p align="center">
+  <img src="https://www.seven.io/wp-content/uploads/Logo.svg" width="250" alt="seven logo" />
+</p>
 
-# seven for CS-Cart
+<h1 align="center">seven SMS for CS-Cart</h1>
+
+<p align="center">
+  Single, bulk and event-based SMS for <a href="https://www.cs-cart.com/">CS-Cart</a> via the seven gateway.
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-teal.svg" alt="MIT License" /></a>
+  <img src="https://img.shields.io/badge/CS--Cart-4.11%2B-blue" alt="CS-Cart 4.11+" />
+  <img src="https://img.shields.io/badge/PHP-7.4%2B-purple" alt="PHP 7.4+" />
+</p>
+
+---
+
+## Features
+
+- **Test SMS** - Send single test messages from the admin
+- **Order-Based SMS** - Notify the customer when an order status changes via configurable templates
+- **Bulk SMS** - Broadcast to all customers
+- **Per-Order SMS** - Send a one-off SMS from inside an order detail page
+- **Message History** - Browse outgoing SMS in *SMS Logs*
 
 ## Prerequisites
 
-- A working CS-Cart installation 4.11.1+ (tested with CS-Cart 4.14.x)
-- An [API key](https://help.seven.io/en/api-key-access) from [seven](https://www.seven.io)
+- A working [CS-Cart](https://www.cs-cart.com/) 4.11.1+ installation (tested with 4.14.x)
+- A [seven account](https://www.seven.io/) with API key ([How to get your API key](https://help.seven.io/en/developer/where-do-i-find-my-api-key))
 
 ## Installation
 
-1. Download
-   the [latest release](https://github.com/seven-io/cscart/releases/latest/download/seven-cscart-latest.zip)
-   as *.ZIP archive
-2. Open your CS-Cart administration, then go to `Add-ons -> Manage add-ons` and click on
-   the `+` icon
-3. The `Upload & install add-on` window should appear. Click on `Local`, select the
-   downloaded *.ZIP file from your computer and press `Upload & install`
+1. Download the [latest release](https://github.com/seven-io/CS-Cart/releases/latest/download/seven-cscart-latest.zip).
+2. In the CS-Cart admin go to **Add-ons > Manage add-ons** and click the **+** icon.
+3. In the *Upload & install add-on* dialog, click **Local**, pick the downloaded ZIP and press **Upload & install**.
 
-## Setup
+## Configuration
 
-1. Go to `Administration -> Send SMS -> Settings`
-2. Set your API key from your [seven developer dashboard](https://app.seven.io/developer)
-3. Submit by clicking `Save`
+1. Go to **Administration > Send SMS > Settings**.
+2. Paste your seven API key.
+3. Click **Save**.
 
-## How to send SMS?
+## Usage
 
-This addon offers multiple ways to send SMS to your customers.
+### Send a test SMS
 
-### Send a test message
+Open **Administration > Send SMS > SMS Test**, fill the form and submit.
 
-1. Go to `Administration -> Send SMS -> SMS Test`
-2. Fill out the form and submit (TODO: add screenshot)
+### Order-status based SMS
 
-### Send SMS after the status of an order changed
+1. In *Manage* click **Message templates**.
+2. Tick the message you want to enable and edit the template body.
 
-1. In the `Manage` window click `Message templates`
-2. Check the checkbox of the message you want to send and fit his template
+### Bulk SMS
 
-### Send Bulk SMS
+Open **Administration > Send SMS > Bulk SMS** and fill the form.
 
-1. Go to `Administration -> Send SMS -> Bulk SMS`
-2. Fill the fields below (TODO: add screenshot)
+### Per-order SMS
 
-### Send SMS to customer associated with an order
+1. Open **Administration > Orders > View orders**.
+2. Open an order via **Order #**.
+3. Click the **Add-ons** tab, fill the seven SMS form and click **Send SMS**.
 
-1. Go to `Administration -> Orders -> View orders`
-2. Load an order by clicking `Order #`
-3. Click the `Add-ons` tab, fill out the seven SMS form and click `Send SMS`
+### History
 
-## Message History
-
-You can find an overview of sent messages by navigating
-to `Administration -> Send SMS -> SMS Logs`.
+Outgoing SMS are listed under **Administration > Send SMS > SMS Logs**.
 
 ## Support
 
-Need help? Feel free to [contact us](https://www.seven.io/en/company/contact/).
+Need help? Feel free to [contact us](https://www.seven.io/en/company/contact/) or [open an issue](https://github.com/seven-io/CS-Cart/issues).
 
-[![MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
+## License
+
+[MIT](LICENSE)
